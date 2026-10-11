@@ -25,8 +25,8 @@ The network is deployed on a physical host utilizing virtualization software to 
                   |
           [ VIRTUAL BOX ]
                   |
-    -----------------------------
-    |                           |              
-[ WINDOW-SERV01 ]         [ WINDOWS 10 ]
-(Windows Server 2016)     (Windows 10)
-    (VM1)                     (VM2)
+    ---------------------------------------------
+    |                           |              |        
+[ WINDOW-SERV01 ]         [ WINDOWS 10 ]    [UBUNTU 22.04 ]
+(Windows Server 2016)     (Windows 10)      (Ubuntu 22.04)
+    (VM1)                     (VM2)             (VM3)
