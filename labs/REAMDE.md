@@ -42,6 +42,10 @@ Restart-Computer
 ![Windows Server 2016 Hostname Change](./../images/hostname.png)
 
  .. CHECKED NETWORK CONFIGURATIONS USING THE 'IPCONFIG /ALL' COMMAND AND VERIFIED THAT THE IP ADDRESS IS 10.0.2.100
+ ```bash
+ PS C:\WINDOWS\system32> ipconfig /all
+```
+
 ![Windows Server 2016 Network Configuration](./../images/ip-add.png)
 
  ..Tested if Connection to the internet is active using
